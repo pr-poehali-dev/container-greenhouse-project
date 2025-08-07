@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
 import Icon from '@/components/ui/icon';
+import ContainerScheme3D from '@/components/ContainerScheme3D';
 
 export default function Index() {
   // Данные мониторинга растений
@@ -183,6 +184,14 @@ export default function Index() {
         <div className="text-center mb-16">
           <Badge className="mb-4">🔬 Технология</Badge>
           <h3 className="text-4xl font-bold mb-4">Как работает контейнерная ферма</h3>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Изучите устройство контейнера в интерактивном 3D режиме. Переключайтесь между внешним и внутренним видом.
+          </p>
+        </div>
+
+        {/* 3D Схема контейнера */}
+        <div className="mb-20">
+          <ContainerScheme3D />
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
