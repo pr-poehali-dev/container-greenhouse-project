@@ -361,6 +361,171 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Галерея */}
+      <section id="gallery" className="container mx-auto px-4 py-20 bg-gradient-to-br from-muted/30 to-background rounded-3xl my-20">
+        <div className="text-center mb-16">
+          <Badge className="mb-4">📸 Галерея</Badge>
+          <h3 className="text-4xl font-bold mb-4">Реальные проекты</h3>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Фотографии действующих контейнерных ферм с настоящими системами выращивания
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Фото 1: Гидропонные стеллажи */}
+          <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-300">
+            <div className="relative overflow-hidden">
+              <img 
+                src="https://cdn.poehali.dev/files/5c6c8d04-5acf-4ac8-8ebc-fa1023e9c9bf.JPG" 
+                alt="Гидропонные стеллажи с системой NFT"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <Badge className="absolute top-4 left-4 bg-secondary">
+                <Icon name="Sprout" size={14} />
+                Система NFT
+              </Badge>
+            </div>
+            <CardContent className="p-6">
+              <h4 className="text-xl font-bold mb-2">Многоярусные стеллажи</h4>
+              <p className="text-muted-foreground mb-4">
+                Гидропонная система NFT с LED освещением полного спектра. 
+                Каждый ярус оборудован индивидуальной системой подачи питательного раствора.
+              </p>
+              <div className="flex items-center gap-4 text-sm text-muted-foreground">
+                <div className="flex items-center gap-1">
+                  <Icon name="Layers" size={16} />
+                  4 яруса
+                </div>
+                <div className="flex items-center gap-1">
+                  <Icon name="Lightbulb" size={16} />
+                  LED подсветка
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Фото 2: Пустые стеллажи */}
+          <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-300">
+            <div className="relative overflow-hidden">
+              <img 
+                src="https://cdn.poehali.dev/files/5253be31-bd02-4a97-9f4c-20141332f289.JPG" 
+                alt="Пустые стеллажи готовые к посадке"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <Badge className="absolute top-4 left-4 bg-primary">
+                <Icon name="Settings" size={14} />
+                Готов к работе
+              </Badge>
+            </div>
+            <CardContent className="p-6">
+              <h4 className="text-xl font-bold mb-2">Чистые стеллажи</h4>
+              <p className="text-muted-foreground mb-4">
+                Стерильная среда выращивания с профессиональными стеллажными системами. 
+                Все готово к размещению растений и запуску производства.
+              </p>
+              <div className="flex items-center gap-4 text-sm text-muted-foreground">
+                <div className="flex items-center gap-1">
+                  <Icon name="Shield" size={16} />
+                  Стерильно
+                </div>
+                <div className="flex items-center gap-1">
+                  <Icon name="CheckCircle" size={16} />
+                  Готов к запуску
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Фото 3: Система управления */}
+          <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-300">
+            <div className="relative overflow-hidden">
+              <img 
+                src="https://cdn.poehali.dev/files/df217764-2a58-49c8-8192-e2620fc8cdf8.jpg" 
+                alt="Система управления и мониторинга"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <Badge className="absolute top-4 left-4 bg-accent">
+                <Icon name="Cpu" size={14} />
+                Автоматизация
+              </Badge>
+            </div>
+            <CardContent className="p-6">
+              <h4 className="text-xl font-bold mb-2">Центр управления</h4>
+              <p className="text-muted-foreground mb-4">
+                Полностью автоматизированная система управления климатом, поливом и освещением. 
+                Мониторинг всех параметров в режиме 24/7.
+              </p>
+              <div className="flex items-center gap-4 text-sm text-muted-foreground">
+                <div className="flex items-center gap-1">
+                  <Icon name="Monitor" size={16} />
+                  Контроль 24/7
+                </div>
+                <div className="flex items-center gap-1">
+                  <Icon name="Zap" size={16} />
+                  Авто-режим
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Фото 4: Внешний вид контейнера */}
+          <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-300">
+            <div className="relative overflow-hidden">
+              <img 
+                src="https://cdn.poehali.dev/files/f13aeb20-8dc3-4ee5-95c2-f9ec66de407d.JPG" 
+                alt="Внешний вид контейнерной фермы"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <Badge className="absolute top-4 left-4 bg-secondary">
+                <Icon name="Box" size={14} />
+                40ft контейнер
+              </Badge>
+            </div>
+            <CardContent className="p-6">
+              <h4 className="text-xl font-bold mb-2">Мобильная ферма</h4>
+              <p className="text-muted-foreground mb-4">
+                Стандартный морской контейнер, переоборудованный в высокотехнологичную ферму. 
+                Можно установить в любом месте с доступом к электричеству.
+              </p>
+              <div className="flex items-center gap-4 text-sm text-muted-foreground">
+                <div className="flex items-center gap-1">
+                  <Icon name="Truck" size={16} />
+                  Мобильный
+                </div>
+                <div className="flex items-center gap-1">
+                  <Icon name="Home" size={16} />
+                  Автономный
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* Статистика проектов */}
+        <div className="mt-16 grid md:grid-cols-4 gap-8">
+          <div className="text-center">
+            <div className="text-4xl font-bold text-primary mb-2">15+</div>
+            <div className="text-muted-foreground">Запущенных ферм</div>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-bold text-secondary mb-2">24/7</div>
+            <div className="text-muted-foreground">Работа без перерывов</div>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-bold text-accent mb-2">50т</div>
+            <div className="text-muted-foreground">Урожая в год</div>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-bold text-primary mb-2">95%</div>
+            <div className="text-muted-foreground">Всхожесть семян</div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gradient-to-r from-primary to-secondary text-white py-16">
         <div className="container mx-auto px-4">
