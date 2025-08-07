@@ -630,15 +630,15 @@ export default function Index() {
               <div className="space-y-2 text-blue-100">
                 <div className="flex items-center gap-2">
                   <Icon name="MapPin" size={16} />
-                  <span className="text-sm">Москва, Россия</span>
+                  <span className="text-sm">Челябинск, Россия</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Icon name="Phone" size={16} />
-                  <span className="text-sm">+7 (495) 123-45-67</span>
+                  <span className="text-sm">+7 (963) 081-14-75</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Icon name="Mail" size={16} />
-                  <span className="text-sm">info@hydrocontainer.ru</span>
+                  <span className="text-sm">foliani@mail.ru</span>
                 </div>
               </div>
             </div>
