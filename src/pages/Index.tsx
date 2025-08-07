@@ -371,7 +371,7 @@ export default function Index() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Фото 1: Гидропонные стеллажи */}
           <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-300">
             <div className="relative overflow-hidden">
@@ -499,6 +499,72 @@ export default function Index() {
                 <div className="flex items-center gap-1">
                   <Icon name="Home" size={16} />
                   Автономный
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Фото 5: Контейнер с открытыми дверьми */}
+          <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-300">
+            <div className="relative overflow-hidden">
+              <img 
+                src="https://cdn.poehali.dev/files/a3494b81-7add-479b-9159-f5ce5d202f31.jpg" 
+                alt="Контейнерная ферма с открытыми дверьми"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <Badge className="absolute top-4 left-4 bg-primary">
+                <Icon name="Eye" size={14} />
+                Открытый доступ
+              </Badge>
+            </div>
+            <CardContent className="p-6">
+              <h4 className="text-xl font-bold mb-2">Производственный процесс</h4>
+              <p className="text-muted-foreground mb-4">
+                Открытые двери демонстрируют работающую ферму с активно растущими культурами. 
+                Видно аккуратные ряды растений и систему NFT в действии.
+              </p>
+              <div className="flex items-center gap-4 text-sm text-muted-foreground">
+                <div className="flex items-center gap-1">
+                  <Icon name="Seedling" size={16} />
+                  Активный рост
+                </div>
+                <div className="flex items-center gap-1">
+                  <Icon name="Sun" size={16} />
+                  Естественный свет
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Фото 6: Многоуровневая система */}
+          <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-300">
+            <div className="relative overflow-hidden">
+              <img 
+                src="https://cdn.poehali.dev/files/18e063f5-2af0-45c5-9ca7-adc2fb6e84eb.jpg" 
+                alt="Многоуровневая система выращивания"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <Badge className="absolute top-4 left-4 bg-accent">
+                <Icon name="BarChart3" size={14} />
+                Максимальная плотность
+              </Badge>
+            </div>
+            <CardContent className="p-6">
+              <h4 className="text-xl font-bold mb-2">Оптимизация пространства</h4>
+              <p className="text-muted-foreground mb-4">
+                Многоярусная система позволяет выращивать максимум культур на минимальной площади. 
+                Каждый лоток независим и может иметь свой микроклимат.
+              </p>
+              <div className="flex items-center gap-4 text-sm text-muted-foreground">
+                <div className="flex items-center gap-1">
+                  <Icon name="TrendingUp" size={16} />
+                  +400% площади
+                </div>
+                <div className="flex items-center gap-1">
+                  <Icon name="Target" size={16} />
+                  Точный контроль
                 </div>
               </div>
             </CardContent>
