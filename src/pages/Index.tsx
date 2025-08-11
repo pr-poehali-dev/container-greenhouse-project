@@ -604,26 +604,34 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100">
               <div className="text-center mb-6">
-                <h3 className="text-xl font-bold mb-2">Стартовый</h3>
-                <div className="text-3xl font-bold text-primary mb-2">₽350 000</div>
-                <p className="text-muted-foreground">Компактная система</p>
+                <h3 className="text-xl font-bold mb-2">Базовый</h3>
+                <div className="text-3xl font-bold text-primary mb-2">₽1 500 000</div>
+                <p className="text-muted-foreground">Полнофункциональная система</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center gap-3">
                   <Icon name="Check" size={18} className="text-green-500" />
-                  <span>Контейнер 20 футов</span>
+                  <span>Контейнер 40 футов</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Icon name="Check" size={18} className="text-green-500" />
-                  <span>LED освещение</span>
+                  <span>Тепло и гидроизоляция</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Icon name="Check" size={18} className="text-green-500" />
-                  <span>Система полива</span>
+                  <span>Растворный узел</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Icon name="Check" size={18} className="text-green-500" />
-                  <span>Базовый мониторинг</span>
+                  <span>Электричество</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Технический свет</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Полный мониторинг и автоматизация</span>
                 </li>
               </ul>
               <Button className="w-full">Заказать</Button>
