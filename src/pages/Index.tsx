@@ -700,7 +700,7 @@ export default function Index() {
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="max-w-md mx-auto mb-12">
               <div className="bg-white rounded-xl p-8 shadow-lg">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="bg-primary/10 p-3 rounded-full">
@@ -727,31 +727,7 @@ export default function Index() {
                 </ul>
               </div>
 
-              <div className="bg-white rounded-xl p-8 shadow-lg">
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="bg-secondary/10 p-3 rounded-full">
-                    <Icon name="TrendingUp" size={24} className="text-secondary" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold">Лизинг</h3>
-                    <p className="text-muted-foreground">До 5 лет</p>
-                  </div>
-                </div>
-                <ul className="space-y-3">
-                  <li className="flex items-center gap-3">
-                    <Icon name="Check" size={18} className="text-green-500" />
-                    <span>Ставка от 0.1%</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <Icon name="Check" size={18} className="text-green-500" />
-                    <span>Авансовый платеж от 0%</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <Icon name="Check" size={18} className="text-green-500" />
-                    <span>Налоговые льготы</span>
-                  </li>
-                </ul>
-              </div>
+
             </div>
 
             <div className="bg-white rounded-xl p-8 shadow-lg">
