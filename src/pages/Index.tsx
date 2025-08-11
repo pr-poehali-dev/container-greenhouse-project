@@ -759,16 +759,16 @@ export default function Index() {
             <div className="bg-white rounded-xl p-8 shadow-lg">
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold mb-2">Пример расчёта</h3>
-                <p className="text-muted-foreground">Профессиональный комплект за ₽750 000</p>
+                <p className="text-muted-foreground">Профессиональный комплект за ₽2 000 000</p>
               </div>
               
               <div className="grid md:grid-cols-3 gap-6 mb-8">
                 <div className="text-center p-6 bg-primary/5 rounded-lg">
-                  <div className="text-2xl font-bold text-primary mb-2">₽225 000</div>
-                  <div className="text-muted-foreground">Первоначальный взнос (30%)</div>
+                  <div className="text-2xl font-bold text-primary mb-2">₽1 000 000</div>
+                  <div className="text-muted-foreground">Первоначальный взнос (50%)</div>
                 </div>
                 <div className="text-center p-6 bg-secondary/5 rounded-lg">
-                  <div className="text-2xl font-bold text-secondary mb-2">₽43 750</div>
+                  <div className="text-2xl font-bold text-secondary mb-2">₽83 333</div>
                   <div className="text-muted-foreground">Ежемесячный платёж</div>
                 </div>
                 <div className="text-center p-6 bg-accent/5 rounded-lg">
