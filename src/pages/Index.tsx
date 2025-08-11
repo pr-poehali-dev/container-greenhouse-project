@@ -601,7 +601,7 @@ export default function Index() {
               Выберите подходящее решение для вашего бизнеса
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100">
               <div className="text-center mb-6">
                 <h3 className="text-xl font-bold mb-2">Стартовый</h3>
@@ -663,36 +663,7 @@ export default function Index() {
               <Button className="w-full">Заказать</Button>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100">
-              <div className="text-center mb-6">
-                <h3 className="text-xl font-bold mb-2">Промышленный</h3>
-                <div className="text-3xl font-bold text-primary mb-2">₽1 500 000</div>
-                <p className="text-muted-foreground">Максимальная производительность</p>
-              </div>
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center gap-3">
-                  <Icon name="Check" size={18} className="text-green-500" />
-                  <span>Модульная система</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon name="Check" size={18} className="text-green-500" />
-                  <span>Климат-контроль</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon name="Check" size={18} className="text-green-500" />
-                  <span>ИИ мониторинг</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon name="Check" size={18} className="text-green-500" />
-                  <span>Техподдержка 24/7</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Icon name="Check" size={18} className="text-green-500" />
-                  <span>Обучение персонала</span>
-                </li>
-              </ul>
-              <Button className="w-full">Заказать</Button>
-            </div>
+
           </div>
         </div>
       </section>
