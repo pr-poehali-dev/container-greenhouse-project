@@ -700,29 +700,55 @@ export default function Index() {
               </p>
             </div>
             
-            <div className="max-w-md mx-auto mb-12">
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white rounded-xl p-8 shadow-lg">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="bg-primary/10 p-3 rounded-full">
                     <Icon name="CreditCard" size={24} className="text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold">Беспроцентная рассрочка</h3>
-                    <p className="text-muted-foreground">До 12 месяцев</p>
+                    <h3 className="text-xl font-bold">Рассрочка с первоначальным взносом</h3>
+                    <p className="text-muted-foreground">12 месяцев</p>
                   </div>
                 </div>
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3">
                     <Icon name="Check" size={18} className="text-green-500" />
-                    <span>Без переплат</span>
+                    <span>Первый взнос 50%</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Check" size={18} className="text-green-500" />
-                    <span>Первый взнос от 30%</span>
+                    <span>Оставшаяся сумма равными платежами</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Check" size={18} className="text-green-500" />
-                    <span>Быстрое оформление</span>
+                    <span>Срок 12 месяцев</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-lg">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="bg-secondary/10 p-3 rounded-full">
+                    <Icon name="Wallet" size={24} className="text-secondary" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold">Рассрочка без первоначального взноса</h3>
+                    <p className="text-muted-foreground">12 месяцев</p>
+                  </div>
+                </div>
+                <ul className="space-y-3">
+                  <li className="flex items-center gap-3">
+                    <Icon name="Check" size={18} className="text-green-500" />
+                    <span>Без первоначального взноса</span>
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <Icon name="Check" size={18} className="text-green-500" />
+                    <span>Полная сумма равными платежами</span>
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <Icon name="Check" size={18} className="text-green-500" />
+                    <span>Срок 12 месяцев</span>
                   </li>
                 </ul>
               </div>
