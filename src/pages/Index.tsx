@@ -643,7 +643,7 @@ export default function Index() {
                   Популярный
                 </div>
                 <h3 className="text-xl font-bold mb-2">Профессиональный</h3>
-                <div className="text-3xl font-bold text-primary mb-2">₽750 000</div>
+                <div className="text-3xl font-bold text-primary mb-2">₽1 000 000</div>
                 <p className="text-muted-foreground">Оптимальное решение</p>
               </div>
               <ul className="space-y-3 mb-8">
@@ -653,19 +653,27 @@ export default function Index() {
                 </li>
                 <li className="flex items-center gap-3">
                   <Icon name="Check" size={18} className="text-green-500" />
-                  <span>Премиум LED освещение</span>
+                  <span>Тепло и гидроизоляция</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Icon name="Check" size={18} className="text-green-500" />
-                  <span>Автоматическая система</span>
+                  <span>Растворный узел</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Icon name="Check" size={18} className="text-green-500" />
-                  <span>Полный мониторинг</span>
+                  <span>Электричество</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Icon name="Check" size={18} className="text-green-500" />
-                  <span>Гарантия 3 года</span>
+                  <span>Технический свет + LED лампы полного спектра</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Стеллажи для выращивания</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>ПК, модем и роутер</span>
                 </li>
               </ul>
               <Button className="w-full">Заказать</Button>
