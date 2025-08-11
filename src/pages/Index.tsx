@@ -630,6 +630,10 @@ export default function Index() {
                   <Icon name="Check" size={18} className="text-green-500" />
                   <span>Полный мониторинг и автоматизация</span>
                 </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Обогащение воздуха СО2</span>
+                </li>
               </ul>
               <Button className="w-full">Заказать</Button>
             </div>
@@ -671,6 +675,10 @@ export default function Index() {
                 <li className="flex items-center gap-3">
                   <Icon name="Check" size={18} className="text-green-500" />
                   <span>ПК, модем и роутер</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Обогащение воздуха СО2</span>
                 </li>
               </ul>
               <Button className="w-full">Заказать</Button>
