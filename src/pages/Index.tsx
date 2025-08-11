@@ -592,6 +592,211 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section className="py-24 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Стоимость</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Выберите подходящее решение для вашего бизнеса
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100">
+              <div className="text-center mb-6">
+                <h3 className="text-xl font-bold mb-2">Стартовый</h3>
+                <div className="text-3xl font-bold text-primary mb-2">₽350 000</div>
+                <p className="text-muted-foreground">Компактная система</p>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Контейнер 20 футов</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>LED освещение</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Система полива</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Базовый мониторинг</span>
+                </li>
+              </ul>
+              <Button className="w-full">Заказать</Button>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-primary">
+              <div className="text-center mb-6">
+                <div className="bg-primary text-white px-3 py-1 rounded-full text-sm font-medium mb-4">
+                  Популярный
+                </div>
+                <h3 className="text-xl font-bold mb-2">Профессиональный</h3>
+                <div className="text-3xl font-bold text-primary mb-2">₽750 000</div>
+                <p className="text-muted-foreground">Оптимальное решение</p>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Контейнер 40 футов</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Премиум LED освещение</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Автоматическая система</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Полный мониторинг</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Гарантия 3 года</span>
+                </li>
+              </ul>
+              <Button className="w-full">Заказать</Button>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100">
+              <div className="text-center mb-6">
+                <h3 className="text-xl font-bold mb-2">Промышленный</h3>
+                <div className="text-3xl font-bold text-primary mb-2">₽1 500 000</div>
+                <p className="text-muted-foreground">Максимальная производительность</p>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Модульная система</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Климат-контроль</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>ИИ мониторинг</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Техподдержка 24/7</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Icon name="Check" size={18} className="text-green-500" />
+                  <span>Обучение персонала</span>
+                </li>
+              </ul>
+              <Button className="w-full">Заказать</Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Installment Section */}
+      <section className="py-24 bg-gradient-to-r from-primary/5 to-secondary/5">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Рассрочка</h2>
+              <p className="text-lg text-muted-foreground">
+                Удобные условия оплаты для развития вашего бизнеса
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white rounded-xl p-8 shadow-lg">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="bg-primary/10 p-3 rounded-full">
+                    <Icon name="CreditCard" size={24} className="text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold">Беспроцентная рассрочка</h3>
+                    <p className="text-muted-foreground">До 12 месяцев</p>
+                  </div>
+                </div>
+                <ul className="space-y-3">
+                  <li className="flex items-center gap-3">
+                    <Icon name="Check" size={18} className="text-green-500" />
+                    <span>Без переплат</span>
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <Icon name="Check" size={18} className="text-green-500" />
+                    <span>Первый взнос от 30%</span>
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <Icon name="Check" size={18} className="text-green-500" />
+                    <span>Быстрое оформление</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-lg">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="bg-secondary/10 p-3 rounded-full">
+                    <Icon name="TrendingUp" size={24} className="text-secondary" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold">Лизинг</h3>
+                    <p className="text-muted-foreground">До 5 лет</p>
+                  </div>
+                </div>
+                <ul className="space-y-3">
+                  <li className="flex items-center gap-3">
+                    <Icon name="Check" size={18} className="text-green-500" />
+                    <span>Ставка от 0.1%</span>
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <Icon name="Check" size={18} className="text-green-500" />
+                    <span>Авансовый платеж от 0%</span>
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <Icon name="Check" size={18} className="text-green-500" />
+                    <span>Налоговые льготы</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl p-8 shadow-lg">
+              <div className="text-center mb-6">
+                <h3 className="text-2xl font-bold mb-2">Пример расчёта</h3>
+                <p className="text-muted-foreground">Профессиональный комплект за ₽750 000</p>
+              </div>
+              
+              <div className="grid md:grid-cols-3 gap-6 mb-8">
+                <div className="text-center p-6 bg-primary/5 rounded-lg">
+                  <div className="text-2xl font-bold text-primary mb-2">₽225 000</div>
+                  <div className="text-muted-foreground">Первоначальный взнос (30%)</div>
+                </div>
+                <div className="text-center p-6 bg-secondary/5 rounded-lg">
+                  <div className="text-2xl font-bold text-secondary mb-2">₽43 750</div>
+                  <div className="text-muted-foreground">Ежемесячный платёж</div>
+                </div>
+                <div className="text-center p-6 bg-accent/5 rounded-lg">
+                  <div className="text-2xl font-bold text-accent mb-2">12 мес.</div>
+                  <div className="text-muted-foreground">Срок рассрочки</div>
+                </div>
+              </div>
+
+              <div className="text-center">
+                <Button size="lg" className="mr-4">
+                  Рассчитать рассрочку
+                </Button>
+                <Button variant="outline" size="lg">
+                  <Icon name="Phone" size={18} className="mr-2" />
+                  Получить консультацию
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gradient-to-r from-primary to-secondary text-white py-16">
         <div className="container mx-auto px-4">
