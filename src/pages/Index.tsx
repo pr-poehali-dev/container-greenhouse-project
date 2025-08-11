@@ -640,7 +640,7 @@ export default function Index() {
                   Популярный
                 </div>
                 <h3 className="text-xl font-bold mb-2">Профессиональный</h3>
-                <div className="text-3xl font-bold text-primary mb-2">₽1 000 000</div>
+                <div className="text-3xl font-bold text-primary mb-2">₽2 000 000</div>
                 <p className="text-muted-foreground">Оптимальное решение</p>
               </div>
               <ul className="space-y-3 mb-8">
