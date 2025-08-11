@@ -93,8 +93,8 @@ export default function Index() {
 
           <div className="relative">
             <img 
-              src="/img/f5eea15c-d126-4c4d-af1e-23a7cbd42943.jpg" 
-              alt="Гидропонная теплица в контейнере"
+              src="https://cdn.poehali.dev/files/6b4c9b6a-e272-40d7-8044-151bbbf5b902.jpg" 
+              alt="Современная гидропонная система со стеллажами"
               className="rounded-2xl shadow-2xl animate-fade-in"
             />
             <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-4 shadow-xl animate-scale-in">
