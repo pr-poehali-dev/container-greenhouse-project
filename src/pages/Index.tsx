@@ -95,11 +95,11 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative max-w-md mx-auto">
             <img 
               src="https://cdn.poehali.dev/files/5ad9e6f3-bf06-4feb-a875-8effafd80b48.jpg" 
               alt="Роботы в автоматизированной гидропонной теплице"
-              className="rounded-2xl shadow-2xl animate-fade-in"
+              className="w-full rounded-2xl shadow-2xl animate-fade-in"
             />
             <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-4 shadow-xl animate-scale-in">
               <div className="flex items-center space-x-2">
