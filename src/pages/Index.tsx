@@ -95,8 +95,8 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="relative max-w-md mx-auto">
-            <div className="w-full h-80 overflow-hidden rounded-2xl shadow-2xl animate-fade-in">
+          <div className="relative max-w-lg mx-auto">
+            <div className="w-full h-96 overflow-hidden rounded-2xl shadow-2xl animate-fade-in">
               <img 
                 src="https://cdn.poehali.dev/files/99c1e867-e65a-43eb-941c-cb562240cc2a.jpg" 
                 alt="Роботы в автоматизированной гидропонной теплице"
