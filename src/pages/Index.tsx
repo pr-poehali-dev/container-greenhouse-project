@@ -762,7 +762,9 @@ export default function Index() {
                   <span>Обогащение воздуха СО2</span>
                 </li>
               </ul>
-              <Button className="w-full">Заказать</Button>
+              <a href="https://wa.me/79058390182?text=Здравствуйте! Хочу заказать Базовый тариф RobotTeplica за 1%20499%20997 рублей" target="_blank" rel="noopener noreferrer" className="w-full">
+                <Button className="w-full">Заказать</Button>
+              </a>
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-primary">
@@ -808,7 +810,9 @@ export default function Index() {
                   <span>Обогащение воздуха СО2</span>
                 </li>
               </ul>
-              <Button className="w-full">Заказать</Button>
+              <a href="https://wa.me/79058390182?text=Здравствуйте! Хочу заказать Профессиональный тариф RobotTeplica за 1%20999%20997 рублей" target="_blank" rel="noopener noreferrer" className="w-full">
+                <Button className="w-full">Заказать</Button>
+              </a>
             </div>
 
 
