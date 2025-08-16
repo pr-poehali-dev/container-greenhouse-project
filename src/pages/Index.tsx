@@ -41,8 +41,20 @@ export default function Index() {
             <a href="#products" className="text-muted-foreground hover:text-primary transition-colors">Продукция</a>
             <a href="#benefits" className="text-muted-foreground hover:text-primary transition-colors">Преимущества</a>
             <a href="#gallery" className="text-muted-foreground hover:text-primary transition-colors">Галерея</a>
+            <a href="https://t.me/RobotTeplica" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1">
+              <Icon name="MessageCircle" size={16} />
+              Telegram
+            </a>
           </div>
-          <Button>Связаться</Button>
+          <div className="flex items-center gap-3">
+            <a href="https://t.me/RobotTeplica" target="_blank" rel="noopener noreferrer" className="md:hidden">
+              <Button variant="outline" size="sm">
+                <Icon name="MessageCircle" size={16} className="mr-1" />
+                Telegram
+              </Button>
+            </a>
+            <Button>Связаться</Button>
+          </div>
         </nav>
       </header>
 
