@@ -49,6 +49,10 @@ export default function Index() {
               <Icon name="Phone" size={16} />
               WhatsApp
             </a>
+            <a href="https://vk.com/club232166099" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1">
+              <Icon name="Users" size={16} />
+              ВКонтакте
+            </a>
           </div>
           <div className="flex items-center gap-3">
             <a href="https://t.me/RobotTeplica" target="_blank" rel="noopener noreferrer" className="md:hidden">
@@ -61,6 +65,12 @@ export default function Index() {
               <Button variant="outline" size="sm">
                 <Icon name="Phone" size={16} className="mr-1" />
                 WhatsApp
+              </Button>
+            </a>
+            <a href="https://vk.com/club232166099" target="_blank" rel="noopener noreferrer" className="md:hidden">
+              <Button variant="outline" size="sm">
+                <Icon name="Users" size={16} className="mr-1" />
+                ВК
               </Button>
             </a>
             <Button>Связаться</Button>
