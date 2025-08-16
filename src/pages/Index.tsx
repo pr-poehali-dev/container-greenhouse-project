@@ -45,12 +45,22 @@ export default function Index() {
               <Icon name="MessageCircle" size={16} />
               Telegram
             </a>
+            <a href="https://wa.me/79058390182" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1">
+              <Icon name="Phone" size={16} />
+              WhatsApp
+            </a>
           </div>
           <div className="flex items-center gap-3">
             <a href="https://t.me/RobotTeplica" target="_blank" rel="noopener noreferrer" className="md:hidden">
               <Button variant="outline" size="sm">
                 <Icon name="MessageCircle" size={16} className="mr-1" />
                 Telegram
+              </Button>
+            </a>
+            <a href="https://wa.me/79058390182" target="_blank" rel="noopener noreferrer" className="md:hidden">
+              <Button variant="outline" size="sm">
+                <Icon name="Phone" size={16} className="mr-1" />
+                WhatsApp
               </Button>
             </a>
             <Button>Связаться</Button>
