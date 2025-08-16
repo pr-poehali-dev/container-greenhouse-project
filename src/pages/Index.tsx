@@ -909,11 +909,8 @@ export default function Index() {
               </div>
 
               <div className="text-center">
-                <Button size="lg" className="mr-4">
-                  Рассчитать рассрочку
-                </Button>
                 <a href="https://wa.me/79058390182?text=Здравствуйте! Хочу получить консультацию по RobotTeplica" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline" size="lg">
+                  <Button size="lg">
                     <Icon name="Phone" size={18} className="mr-2" />
                     Получить консультацию
                   </Button>
