@@ -601,23 +601,30 @@ export default function Index() {
             {/* Основное видео */}
             <div className="relative">
               <div className="aspect-video bg-muted rounded-xl overflow-hidden shadow-lg">
-                <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="bg-white/90 backdrop-blur-sm rounded-full p-6 mb-4 mx-auto w-24 h-24 flex items-center justify-center shadow-lg">
-                      <Icon name="Play" size={32} className="text-primary ml-1" />
-                    </div>
-                    <h3 className="text-xl font-bold mb-2">Обзор системы</h3>
-                    <p className="text-muted-foreground">Полный цикл выращивания</p>
-                  </div>
-                </div>
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1"
+                  title="Обзор гидропонной системы"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="mt-4 text-center">
+                <h3 className="text-xl font-bold mb-2">Обзор системы</h3>
+                <p className="text-muted-foreground">Полный цикл выращивания</p>
               </div>
             </div>
 
             {/* Дополнительные видео */}
             <div className="space-y-6">
-              <div className="flex gap-4 items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer">
-                <div className="aspect-video w-32 bg-muted rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Icon name="Play" size={20} className="text-primary" />
+              <div className="flex gap-4 items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer" onClick={() => window.open('https://youtube.com/watch?v=INSTALLATION_VIDEO_ID', '_blank')}>
+                <div className="aspect-video w-32 bg-muted rounded-lg overflow-hidden flex-shrink-0">
+                  <img 
+                    src="https://img.youtube.com/vi/INSTALLATION_VIDEO_ID/mqdefault.jpg" 
+                    alt="Установка системы"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Установка системы</h4>
@@ -626,9 +633,13 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="flex gap-4 items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer">
-                <div className="aspect-video w-32 bg-muted rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Icon name="Play" size={20} className="text-primary" />
+              <div className="flex gap-4 items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer" onClick={() => window.open('https://youtube.com/watch?v=RESULTS_VIDEO_ID', '_blank')}>
+                <div className="aspect-video w-32 bg-muted rounded-lg overflow-hidden flex-shrink-0">
+                  <img 
+                    src="https://img.youtube.com/vi/RESULTS_VIDEO_ID/mqdefault.jpg" 
+                    alt="Результаты выращивания"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Результаты выращивания</h4>
@@ -637,9 +648,13 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="flex gap-4 items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer">
-                <div className="aspect-video w-32 bg-muted rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Icon name="Play" size={20} className="text-primary" />
+              <div className="flex gap-4 items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer" onClick={() => window.open('https://youtube.com/watch?v=REVIEWS_VIDEO_ID', '_blank')}>
+                <div className="aspect-video w-32 bg-muted rounded-lg overflow-hidden flex-shrink-0">
+                  <img 
+                    src="https://img.youtube.com/vi/REVIEWS_VIDEO_ID/mqdefault.jpg" 
+                    alt="Отзывы клиентов"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Отзывы клиентов</h4>
