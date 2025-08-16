@@ -725,7 +725,7 @@ export default function Index() {
             <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100">
               <div className="text-center mb-6">
                 <h3 className="text-xl font-bold mb-2">Базовый</h3>
-                <div className="text-3xl font-bold text-primary mb-2">₽1 500 000</div>
+                <div className="text-3xl font-bold text-primary mb-2">₽1 499 997</div>
                 <p className="text-muted-foreground">Полнофункциональная система</p>
               </div>
               <ul className="space-y-3 mb-8">
