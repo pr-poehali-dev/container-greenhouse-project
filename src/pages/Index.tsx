@@ -100,10 +100,12 @@ export default function Index() {
             </div>
             
             <div className="flex flex-wrap gap-4">
-              <Button size="lg" className="bg-gradient-to-r from-primary to-secondary">
-                <Icon name="PlayCircle" size={20} />
-                Смотреть демо
-              </Button>
+              <a href="https://youtu.be/j2DQfYfuMhc" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-gradient-to-r from-primary to-secondary">
+                  <Icon name="PlayCircle" size={20} />
+                  Смотреть демо
+                </Button>
+              </a>
               <Button size="lg" variant="outline">
                 <Icon name="Download" size={20} />
                 Скачать каталог
