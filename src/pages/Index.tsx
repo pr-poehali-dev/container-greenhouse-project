@@ -96,11 +96,13 @@ export default function Index() {
           </div>
 
           <div className="relative max-w-md mx-auto">
-            <img 
-              src="https://cdn.poehali.dev/files/5ad9e6f3-bf06-4feb-a875-8effafd80b48.jpg" 
-              alt="Роботы в автоматизированной гидропонной теплице"
-              className="w-full rounded-2xl shadow-2xl animate-fade-in"
-            />
+            <div className="w-full h-80 overflow-hidden rounded-2xl shadow-2xl animate-fade-in">
+              <img 
+                src="https://cdn.poehali.dev/files/5ad9e6f3-bf06-4feb-a875-8effafd80b48.jpg" 
+                alt="Роботы в автоматизированной гидропонной теплице"
+                className="w-full h-full object-cover object-bottom"
+              />
+            </div>
             <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-4 shadow-xl animate-scale-in">
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-secondary rounded-full animate-pulse-green"></div>
