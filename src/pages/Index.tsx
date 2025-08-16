@@ -26,8 +26,12 @@ export default function Index() {
       {/* Header */}
       <header className="container mx-auto px-4 py-6">
         <nav className="flex justify-between items-center">
-          <div className="flex items-center space-x-2">
-            <Icon name="Leaf" size={32} className="text-secondary" />
+          <div className="flex items-center space-x-3">
+            <img 
+              src="https://cdn.poehali.dev/files/7a4f6c2e-4102-441b-889f-232906fd4fcf.jpg" 
+              alt="HydroContainer Logo" 
+              className="w-10 h-10 object-contain"
+            />
             <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               HydroContainer
             </h1>
