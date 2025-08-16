@@ -616,7 +616,7 @@ export default function Index() {
               </div>
               <div className="mt-4 text-center">
                 <h3 className="text-xl font-bold mb-2">Робот-Теплица из морского контейнера!</h3>
-                <p className="text-muted-foreground">Полный цикл выращивания</p>
+                <p className="text-muted-foreground">Почему стоит выбрать именно нашу Робот-Теплицу?</p>
               </div>
             </div>
 
