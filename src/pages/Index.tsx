@@ -589,6 +589,78 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-24 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Видео-презентация</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Посмотрите, как работают наши гидропонные системы
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Основное видео */}
+            <div className="relative">
+              <div className="aspect-video bg-muted rounded-xl overflow-hidden shadow-lg">
+                <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="bg-white/90 backdrop-blur-sm rounded-full p-6 mb-4 mx-auto w-24 h-24 flex items-center justify-center shadow-lg">
+                      <Icon name="Play" size={32} className="text-primary ml-1" />
+                    </div>
+                    <h3 className="text-xl font-bold mb-2">Обзор системы</h3>
+                    <p className="text-muted-foreground">Полный цикл выращивания</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Дополнительные видео */}
+            <div className="space-y-6">
+              <div className="flex gap-4 items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+                <div className="aspect-video w-32 bg-muted rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="Play" size={20} className="text-primary" />
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-1">Установка системы</h4>
+                  <p className="text-sm text-muted-foreground">Пошаговое руководство по монтажу</p>
+                  <div className="text-xs text-muted-foreground mt-1">5:32</div>
+                </div>
+              </div>
+
+              <div className="flex gap-4 items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+                <div className="aspect-video w-32 bg-muted rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="Play" size={20} className="text-primary" />
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-1">Результаты выращивания</h4>
+                  <p className="text-sm text-muted-foreground">Урожай через 30 дней</p>
+                  <div className="text-xs text-muted-foreground mt-1">3:45</div>
+                </div>
+              </div>
+
+              <div className="flex gap-4 items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+                <div className="aspect-video w-32 bg-muted rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="Play" size={20} className="text-primary" />
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-1">Отзывы клиентов</h4>
+                  <p className="text-sm text-muted-foreground">Реальные истории успеха</p>
+                  <div className="text-xs text-muted-foreground mt-1">8:15</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <Button size="lg">
+              <Icon name="Youtube" size={20} className="mr-2" />
+              Смотреть все видео
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Section */}
       <section className="py-24 bg-muted/30">
         <div className="container mx-auto px-4">
