@@ -615,7 +615,7 @@ export default function Index() {
                 ></iframe>
               </div>
               <div className="mt-4 text-center">
-                <h3 className="text-xl font-bold mb-2">Обзор системы</h3>
+                <h3 className="text-xl font-bold mb-2">Робот-Теплица из морского контейнера!</h3>
                 <p className="text-muted-foreground">Полный цикл выращивания</p>
               </div>
             </div>
