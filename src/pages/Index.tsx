@@ -603,7 +603,7 @@ export default function Index() {
               <div className="aspect-video bg-muted rounded-xl overflow-hidden shadow-lg">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/j2DQfYfuMhc?rel=0&modestbranding=1"
                   title="Обзор гидропонной системы"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
