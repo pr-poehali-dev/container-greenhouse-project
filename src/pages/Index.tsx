@@ -665,8 +665,8 @@ export default function Index() {
                   />
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Установка системы</h4>
-                  <p className="text-sm text-muted-foreground">Пошаговое руководство по монтажу</p>
+                  <h4 className="font-semibold mb-1">Как возможно выращивать в контейнере в условиях жары или холода?</h4>
+                  <p className="text-sm text-muted-foreground">Обзорное видео про утепление контейнера</p>
                   <div className="text-xs text-muted-foreground mt-1">Shorts</div>
                 </div>
               </div>
