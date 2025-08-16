@@ -106,10 +106,12 @@ export default function Index() {
                   Смотреть демо
                 </Button>
               </a>
-              <Button size="lg" variant="outline">
-                <Icon name="Download" size={20} />
-                Скачать каталог
-              </Button>
+              <a href="#pricing">
+                <Button size="lg" variant="outline">
+                  <Icon name="DollarSign" size={20} />
+                  Смотреть тарифы
+                </Button>
+              </a>
             </div>
 
             {/* Ключевые показатели */}
