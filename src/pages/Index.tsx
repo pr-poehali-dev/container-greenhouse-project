@@ -97,14 +97,14 @@ export default function Index() {
 
           <div className="relative">
             <img 
-              src="https://cdn.poehali.dev/files/6b4c9b6a-e272-40d7-8044-151bbbf5b902.jpg" 
-              alt="Современная гидропонная система со стеллажами"
+              src="https://cdn.poehali.dev/files/5ad9e6f3-bf06-4feb-a875-8effafd80b48.jpg" 
+              alt="Роботы в автоматизированной гидропонной теплице"
               className="rounded-2xl shadow-2xl animate-fade-in"
             />
             <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-4 shadow-xl animate-scale-in">
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-secondary rounded-full animate-pulse-green"></div>
-                <span className="text-sm font-medium">Система активна</span>
+                <span className="text-sm font-medium">🤖 Роботы активны</span>
               </div>
             </div>
           </div>
