@@ -33,7 +33,7 @@ export default function Index() {
               className="w-10 h-10 object-contain"
             />
             <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              HydroContainer
+              RobotTeplica
             </h1>
           </div>
           <div className="hidden md:flex space-x-8">
