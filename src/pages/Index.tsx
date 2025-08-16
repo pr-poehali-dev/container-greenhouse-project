@@ -622,10 +622,10 @@ export default function Index() {
 
             {/* Дополнительные видео */}
             <div className="space-y-6">
-              <div className="flex gap-4 items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer" onClick={() => window.open('https://youtube.com/watch?v=INSTALLATION_VIDEO_ID', '_blank')}>
+              <div className="flex gap-4 items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer" onClick={() => window.open('https://youtube.com/shorts/DpRimdmUYSM', '_blank')}>
                 <div className="aspect-video w-32 bg-muted rounded-lg overflow-hidden flex-shrink-0">
                   <img 
-                    src="https://img.youtube.com/vi/INSTALLATION_VIDEO_ID/mqdefault.jpg" 
+                    src="https://img.youtube.com/vi/DpRimdmUYSM/mqdefault.jpg" 
                     alt="Установка системы"
                     className="w-full h-full object-cover"
                   />
@@ -633,7 +633,7 @@ export default function Index() {
                 <div>
                   <h4 className="font-semibold mb-1">Установка системы</h4>
                   <p className="text-sm text-muted-foreground">Пошаговое руководство по монтажу</p>
-                  <div className="text-xs text-muted-foreground mt-1">5:32</div>
+                  <div className="text-xs text-muted-foreground mt-1">Shorts</div>
                 </div>
               </div>
 
